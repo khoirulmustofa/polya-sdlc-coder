@@ -15,7 +15,7 @@
 </p>
 
 > [!NOTE]
-> **Informasi Fork & Modifikasi**: Repositori ini merupakan hasil *fork* resmi dari [GulajavaMinistudio/polya-sdlc-coder](https://github.com/GulajavaMinistudio/polya-sdlc-coder) yang dikelola oleh [@khoirulmustofa](https://github.com/khoirulmustofa/polya-sdlc-coder). Versi ini disesuaikan khusus dengan instruksi respon LLM, dokumentasi SDLC, dan komentar kode dalam **Bahasa Indonesia**.
+> **Informasi Fork & Modifikasi**: Repositori ini merupakan hasil *fork* resmi dari [GulajavaMinistudio/polya-sdlc-coder](https://github.com/GulajavaMinistudio/polya-sdlc-coder) yang dikelola oleh [@khoirulmustofa](https://github.com/khoirulmustofa/polya-sdlc-coder). Versi ini disesuaikan khusus dengan instruksi respon LLM, dokumentasi SDLC, dan komentar kode dalam **Bahasa Indonesia**. Terima kasih dan apresiasi setinggi-tingginya kepada [GulajavaMinistudio](https://github.com/GulajavaMinistudio) atas karya dan fondasi arsitektur aslinya yang sangat luar biasa!
 
 ---
 
@@ -541,6 +541,14 @@ Kontribusi sangat disambut! Untuk berkontribusi:
 3. Ikuti heuristik George Pólya dan konvensi Clean Architecture ala Uncle Bob.
 4. Uji dan verifikasi semua definisi skill dengan lint check.
 5. Buka Pull Request dengan deskripsi yang jelas dan terstruktur.
+
+---
+
+## 🙏 Ucapan Terima Kasih & Kredit
+
+Proyek ini terwujud berkat fondasi luar biasa dari repositori upstream:
+
+- **[GulajavaMinistudio/polya-sdlc-coder](https://github.com/GulajavaMinistudio/polya-sdlc-coder)** — Pencipta dan arsitek asli dari *Pólya SDLC Coder* yang memadukan heuristik George Pólya (1945), Clean Architecture ala Uncle Bob, serta ekosistem 15-skill agentic AI. Terima kasih dan apresiasi setinggi-tingginya kepada [GulajavaMinistudio](https://github.com/GulajavaMinistudio) atas karya open-source yang sangat inovatif dan berharga ini!
 
 ---
 
