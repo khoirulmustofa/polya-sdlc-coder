@@ -5,14 +5,17 @@
 > Terinspirasi dari buku legendaris George Pólya *How to Solve It* (1945), buku *Clean Architecture* & *Clean Code* karya Robert C. Martin, serta *Skills for Real Engineers* karya Matt Pocock.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-polya--sdlc--coder-181717?logo=github)](https://github.com/GulajavaMinistudio/polya-sdlc-coder)
+[![GitHub](https://img.shields.io/badge/GitHub-polya--sdlc--coder-181717?logo=github)](https://github.com/khoirulmustofa/polya-sdlc-coder)
 [![Documentation](https://img.shields.io/badge/Documentation-Live%20Web-0ea5e9?logo=googlechrome&logoColor=white)](https://gulajavaministudio.github.io/polya-sdlc-coder/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/GulajavaMinistudio/polya-sdlc-coder/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/khoirulmustofa/polya-sdlc-coder/pulls)
 [![Platforms](https://img.shields.io/badge/Platforms-Copilot%20%7C%20Antigravity%20%7C%20Cursor%20%7C%20Claude%20%7C%20Codex%20%7C%20Pi-blueviolet)](#-platform-yang-didukung)
 
 <p align="center">
   <img src="polya-sdlc-cats-compressed.jpg" alt="Pólya SDLC Coder Banner" width="760">
 </p>
+
+> [!NOTE]
+> **Informasi Fork & Modifikasi**: Repositori ini merupakan hasil *fork* dari [GulajavaMinistudio/polya-sdlc-coder](https://github.com/GulajavaMinistudio/polya-sdlc-coder) yang dikelola oleh [@khoirulmustofa](https://github.com/khoirulmustofa/polya-sdlc-coder). Versi ini disesuaikan dengan instruksi respon LLM, dokumentasi SDLC, dan komentar kode dalam **Bahasa Indonesia**. (Terkait modul pada `D:\PHP\ppdb_laravel\resources\js\Pages\Admin\WhatsApp`).
 
 ---
 
@@ -136,7 +139,7 @@ Pasang skill bootstrapper saja agar folder skill tetap ringan:
 
 ```bash
 # Add to-init via GitHub shorthand
-npx skills add GulajavaMinistudio/polya-sdlc-coder/skills/to-init
+npx skills add khoirulmustofa/polya-sdlc-coder/skills/to-init
 ```
 
 Lalu di jendela chat AI Assistant kamu, jalankan:
@@ -153,7 +156,7 @@ Kalau kamu ingin langsung memasang seluruh 15 skill ke proyekmu:
 
 ```bash
 # Add all skills from this repository
-npx skills add GulajavaMinistudio/polya-sdlc-coder
+npx skills add khoirulmustofa/polya-sdlc-coder
 ```
 
 Setelah terpasang, jalankan `/to-init` di jendela chat untuk membuat file `AGENTS.md` di root proyek beserta file-file aturan proyek lainnya.
@@ -167,13 +170,13 @@ Jalankan installer interaktif dari terminal di folder root proyek tujuan. Skrip 
 #### 🪟 Windows (PowerShell)
 
 ```powershell
-irm https://raw.githubusercontent.com/GulajavaMinistudio/polya-sdlc-coder/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/khoirulmustofa/polya-sdlc-coder/main/install.ps1 | iex
 ```
 
 #### 🐧 Linux / macOS (Bash & Zsh)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/GulajavaMinistudio/polya-sdlc-coder/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/khoirulmustofa/polya-sdlc-coder/main/install.sh | bash
 ```
 
 Skrip interaktif ini akan:
@@ -189,7 +192,7 @@ Kalau kamu ingin kendali penuh secara manual:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/GulajavaMinistudio/polya-sdlc-coder.git
+git clone https://github.com/khoirulmustofa/polya-sdlc-coder.git
 
 # 2. Copy the configuration to your project
 # For standard platforms (Copilot, Antigravity, Codex, Pi, OpenCode):
