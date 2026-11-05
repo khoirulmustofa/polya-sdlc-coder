@@ -15,7 +15,7 @@
 </p>
 
 > [!NOTE]
-> **Informasi Fork & Modifikasi**: Repositori ini merupakan hasil *fork* resmi dari [GulajavaMinistudio/polya-sdlc-coder](https://github.com/GulajavaMinistudio/polya-sdlc-coder) yang dikelola oleh [@khoirulmustofa](https://github.com/khoirulmustofa/polya-sdlc-coder). Versi ini disesuaikan khusus dengan instruksi respon LLM, dokumentasi SDLC, dan komentar kode dalam **Bahasa Indonesia**. Terima kasih dan apresiasi setinggi-tingginya kepada [GulajavaMinistudio](https://github.com/GulajavaMinistudio) atas karya dan fondasi arsitektur aslinya yang sangat luar biasa!
+> **Informasi Fork & Modifikasi**: Repositori ini merupakan hasil *fork* resmi dari [GulajavaMinistudio/polya-sdlc-coder](https://github.com/GulajavaMinistudio/polya-sdlc-coder),  Versi ini disesuaikan khusus dengan instruksi respon LLM, dokumentasi SDLC, dan komentar kode dalam **Bahasa Indonesia**. Terima kasih dan apresiasi setinggi-tingginya kepada [GulajavaMinistudio](https://github.com/GulajavaMinistudio) atas karya dan fondasi arsitektur aslinya yang sangat luar biasa!
 
 ---
 
