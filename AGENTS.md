@@ -7,8 +7,41 @@
 
 ## Communication
 
-- **Language**: Communication and all documentation must use clear, concise, and professional English.
-- **Scope**: This language policy applies strictly to all user-facing responses, explanations, and conversational output. Technical artifacts (code comments, commit messages, variable names, and documentation files) MUST follow the English language convention unless explicitly instructed otherwise by the user.
+- **Language**: All user-facing output (LLM responses, explanations, generated documents, and code comments) MUST be written in clear, natural, and professional **Bahasa Indonesia**. Toolkit instruction files (this `AGENTS.md`, `.agents/rules/`, `.agents/instructions/`, `.agents/standards/`, and every `.agents/skills/**/SKILL.md`) MUST remain in clear, professional **English**.
+- **Language Policy Matrix (Single Source of Truth)**: Every rule, skill, and template in this workspace defers to this matrix. If any downstream file says "strictly in English" for an artifact listed below as Bahasa Indonesia, this matrix wins.
+
+  | Artifact | Language | Notes |
+  | :--- | :--- | :--- |
+  | Conversational responses, summaries, triage cards, questions, pushback messages | Bahasa Indonesia | Translate English templates per the Global Translation Override. |
+  | Generated SDLC documents (`docs/discovery/`, `docs/prd/`, `docs/spec/`, `docs/plan/`, `docs/audit/`, `docs/adr/`, `docs/reviews/`, `docs/bug-reports/`, Diátaxis docs, `docs/ARCHITECTURE.md`, `CONTEXT.md`, `CHANGELOG.md`) | Bahasa Indonesia | Body text in Indonesian; keep established technical terms in English (see below). |
+  | Code comments: function/class/method docblocks (PHPDoc, JSDoc, docstrings, KDoc, etc.) and inline comments | Bahasa Indonesia | See **Code Commenting Standard** below. |
+  | Code identifiers (variables, functions, classes, files, DB columns, API fields) | English | Keeps code idiomatic and tool-friendly. |
+  | Commit messages | English | Conventional Commits format (`feat(scope): ...`) for tooling compatibility. |
+  | Toolkit instruction files (`AGENTS.md`, `.agents/**`) | English | Professional, precise English. |
+
+- **Technical Terms**: Do not force-translate established engineering vocabulary. Keep terms such as *Use Case*, *Entity*, *DTO*, *Repository*, *Seam*, *Tracer Bullet*, *Invariant*, *SOLID*, and *Dependency Injection*, plus traceability IDs (`REQ-001`, `AC-001`, `TASK-001`, `[ASSUMPTION-001]`) and review tags (`[Important]`, `[Nit]`, `[Pre-existing]`), in English.
+- **Code Commenting Standard (Bahasa Indonesia)**: The goal is to help the user understand the code they receive.
+  - **Function-level**: Every new or modified public function, method, class, and module MUST have a docblock in Bahasa Indonesia using the language-idiomatic format, describing its purpose, parameters, return value, and thrown errors/edge cases.
+  - **Block-level**: Every non-trivial code block (branching business rules, loops with side effects, transactions, validation, security checks, algorithms, workarounds) MUST have a short Indonesian inline comment explaining *why* it exists and *what intent* it serves.
+  - **Avoid noise**: Do not narrate trivial, self-evident lines (e.g., `// tambah 1 ke i`). Comments complement intention-revealing names; they never replace them.
+  - **Existing code**: Do not translate or rewrite existing comments outside the scope of the current change (Surgical Edit Mandate).
+
+  ```php
+  /**
+   * Menghitung total harga pesanan setelah diskon dan pajak.
+   *
+   * @param  Order  $order  Pesanan yang akan dihitung totalnya.
+   * @return Money          Total akhir dalam mata uang pesanan.
+   * @throws InvalidDiscountException Jika persentase diskon di luar rentang 0-100.
+   */
+  public function calculateTotal(Order $order): Money
+  {
+      // Diskon diterapkan sebelum pajak sesuai aturan perpajakan (REQ-004).
+      $subtotal = $this->discountPolicy->apply($order);
+
+      return $subtotal->add($this->taxCalculator->for($subtotal));
+  }
+  ```
 - **Tone**: Formal yet friendly, authoritative, pragmatic, and mentorship-oriented (Veteran Senior Principal Engineer persona).
 - **Format**: Use clean structure with bullet points, comparison tables, ASCII diagrams, and code blocks as needed.
 
@@ -287,7 +320,7 @@ The development lifecycle follows a disciplined 6-phase progression based on Geo
 - **Vertical Slicing (Tracer Bullets):** All Implementation Plans MUST be broken down into "Tracer Bullet" tickets (vertical slices from DB to UI that are independently demoable and verifiable). Horizontal slicing (layer-by-layer) is strictly prohibited.
 - **Documentation First:** Complete and structured documentation must exist before coding begins.
 - **Surgical Edit Mandate:** AI agents MUST prioritize targeted, surgical edits (modifying only the specific lines or blocks needed) rather than replacing entire files during code execution or document revision. Full file replacements should be strictly avoided unless creating a new file from scratch.
-- **English-Only Documentation & Code:** While conversational responses MUST be in the language specified in the "Communication" section above, all written code (variables, comments, commit messages) and all generated SDLC documentation (`docs/spec/`, `docs/plan/`, `docs/`, `docs/adr/`, `CONTEXT.md`) MUST be written entirely in clear, simple English.
+- **Bilingual Language Policy:** Conversational responses, all generated SDLC documentation (`docs/**`, `CONTEXT.md`, `CHANGELOG.md`), and code comments (docblocks and inline comments) MUST be written in Bahasa Indonesia. Code identifiers, commit messages, and toolkit instruction files (`AGENTS.md`, `.agents/**`) MUST be written in clear, professional English. See the **Language Policy Matrix** in the "Communication" section for the authoritative mapping.
 - **Testing Policy (Two-Layer Mandate & 3-Tier Check Commands):** Testing is mandatory at two levels, operationalized via three speed-tiered verification commands documented in `docs/ARCHITECTURE.md`:
   - **Micro level (per coherent seam & per tracer bullet):**
     - `check:fast` (**< 5s, every coherent seam/primitive edit**): Typechecker (`tsc --noEmit` or equivalent), linter, and secret scan (`gitleaks detect --redact --no-banner` — `--redact` is mandatory so secrets never enter the LLM transcript).

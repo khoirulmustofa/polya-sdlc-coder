@@ -1,14 +1,14 @@
 # Pólya SDLC Coder 📐⚡
 <!-- markdownlint-disable -->
 
-> **Mathematical Problem-Solving Meets Uncle Bob's Clean Architecture for AI Coding Agents**  
-> Inspired by George Pólya's 1945 masterpiece *How to Solve It*, Robert C. Martin's *Clean Architecture* & *Clean Code*, and Matt Pocock's *Skills for Real Engineers*.
+> **Cara Matematikawan Memecahkan Masalah + Clean Architecture ala Uncle Bob, untuk AI Coding Agent**  
+> Terinspirasi dari buku legendaris George Pólya *How to Solve It* (1945), buku *Clean Architecture* & *Clean Code* karya Robert C. Martin, serta *Skills for Real Engineers* karya Matt Pocock.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-polya--sdlc--coder-181717?logo=github)](https://github.com/GulajavaMinistudio/polya-sdlc-coder)
 [![Documentation](https://img.shields.io/badge/Documentation-Live%20Web-0ea5e9?logo=googlechrome&logoColor=white)](https://gulajavaministudio.github.io/polya-sdlc-coder/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/GulajavaMinistudio/polya-sdlc-coder/pulls)
-[![Platforms](https://img.shields.io/badge/Platforms-Copilot%20%7C%20Antigravity%20%7C%20Cursor%20%7C%20Claude%20%7C%20Codex%20%7C%20Pi-blueviolet)](#-supported-platforms)
+[![Platforms](https://img.shields.io/badge/Platforms-Copilot%20%7C%20Antigravity%20%7C%20Cursor%20%7C%20Claude%20%7C%20Codex%20%7C%20Pi-blueviolet)](#-platform-yang-didukung)
 
 <p align="center">
   <img src="polya-sdlc-cats-compressed.jpg" alt="Pólya SDLC Coder Banner" width="760">
@@ -16,27 +16,27 @@
 
 ---
 
-## 💡 Why Pólya SDLC Coder?
+## 💡 Kenapa Pólya SDLC Coder?
 
-Most AI coding agents fail not because they cannot write code, but because they **start writing code too early**. 
+Kebanyakan AI coding agent gagal bukan karena tidak bisa menulis kode, tetapi karena **terlalu cepat mulai menulis kode**.
 
-When given an ambiguous prompt, agents hallucinate assumptions, skip edge cases, produce messy horizontal patches, break existing Clean Architecture seams, and generate unmaintainable boilerplate.
+Saat diberi perintah yang kurang jelas, agent cenderung menebak-nebak asumsi, melewatkan kasus-kasus pinggir (*edge case*), membuat tambalan yang berantakan, merusak batas-batas arsitektur yang sudah ada, dan menghasilkan kode yang sulit dirawat.
 
-**Pólya SDLC Coder** equips your AI coding agent with a battle-tested, disciplined engineering system:
+**Pólya SDLC Coder** membekali AI coding agent kamu dengan sistem kerja yang disiplin dan sudah teruji:
 
-1. **First, Understand the Problem (`/to-spec`)**: Deconstruct *The Unknown*, *The Data*, and *The Condition*. Define Type-Driven contracts and map Clean Architecture seams before writing a single line of application code.
-2. **Socratic Sparring & Stress-Testing (`/to-grill-me`)**: Pressure-test assumptions, explore sad paths, and force concrete A/B technical choices through turn-by-turn interview rounds with senior recommendations.
-3. **Audit Condition & Readiness (`/to-clarify`)**: Interrogate ambiguities with a 5-axis sanity check and quantify an objective 0–100 Readiness Score before allocating implementation resources.
-4. **Devise a Modular Plan (`/to-plan`)**: Break the feature into vertical tracer bullets (DB to UI) with Plan B contingencies.
-5. **🛑 The Pause Rule Gate**: The agent **MUST** halt and receive explicit human verification before writing functional code.
-6. **Carry Out the Plan (`/to-code`)**: Enforce Uncle Bob's Clean Code, the Boy Scout Rule, and a Two-Layer Testing Mandate with zero tolerance for cheating or suppressions.
-7. **Look Back (`/to-review` & `/to-docs`)**: Audit 5 SOLID principles, test boundary invariants, and author structured Diátaxis documentation.
+1. **Pahami Masalahnya Dulu (`/to-spec`)**: Uraikan *apa yang dicari* (*The Unknown*), *data apa yang tersedia* (*The Data*), dan *syarat apa yang harus dipenuhi* (*The Condition*). Tentukan kontrak data dan batas-batas Clean Architecture sebelum menulis satu baris kode aplikasi pun.
+2. **Diskusi Kritis & Uji Ketahanan Desain (`/to-grill-me`)**: Uji asumsi, telusuri skenario gagal (*sad path*), dan paksa pengambilan keputusan teknis yang konkret (pilihan A atau B) lewat sesi tanya-jawab bergiliran, lengkap dengan rekomendasi senior.
+3. **Audit Syarat & Kesiapan (`/to-clarify`)**: Bongkar hal-hal yang masih ambigu dengan pemeriksaan 5 sisi, lalu beri nilai kesiapan yang objektif (*Readiness Score* 0–100) sebelum mulai implementasi.
+4. **Susun Rencana yang Modular (`/to-plan`)**: Pecah fitur menjadi potongan vertikal (*tracer bullet*) dari database sampai UI, lengkap dengan rencana cadangan (*Plan B*).
+5. **🛑 Gerbang The Pause Rule**: Agent **WAJIB** berhenti dan menunggu persetujuan eksplisit dari kamu sebelum menulis kode fungsional.
+6. **Jalankan Rencananya (`/to-code`)**: Terapkan Clean Code ala Uncle Bob, *Boy Scout Rule* (tinggalkan kode lebih bersih dari sebelumnya), dan aturan pengujian dua lapis, tanpa toleransi untuk "akal-akalan" atau menonaktifkan peringatan.
+7. **Tinjau Kembali (`/to-review` & `/to-docs`)**: Audit 5 prinsip SOLID, uji batas-batas *invariant*, dan tulis dokumentasi yang terstruktur dengan kerangka Diátaxis.
 
 ---
 
-## 🌐 Interactive Web Documentation
+## 🌐 Dokumentasi Web Interaktif
 
-Prefer an interactive visual guide? Explore the official web documentation and live skill catalog:
+Lebih suka panduan visual yang interaktif? Kunjungi dokumentasi web resmi beserta katalog skill-nya:
 
 <p align="center">
   <a href="https://gulajavaministudio.github.io/polya-sdlc-coder/">
@@ -44,125 +44,125 @@ Prefer an interactive visual guide? Explore the official web documentation and l
   </a>
 </p>
 
-🔗 **Live URL:** [https://gulajavaministudio.github.io/polya-sdlc-coder/](https://gulajavaministudio.github.io/polya-sdlc-coder/)
+🔗 **Alamat:** [https://gulajavaministudio.github.io/polya-sdlc-coder/](https://gulajavaministudio.github.io/polya-sdlc-coder/)
 
-### 🌟 What's in the Web Documentation?
-- **🗂️ 15-Skill Interactive Catalog**: Deep dive into all 15 skills across the 6 SDLC phases with real-world chat prompts, input/output contracts, and Diátaxis documentation.
-- **⚡ Copy-and-Paste Install Configurator**: One-click scripts and `npx skills` commands tailored for macOS, Linux, and Windows with instant clipboard affordance.
-- **📐 6-Phase Lifecycle Visualizer**: Visual mapping of George Pólya's 1945 heuristic principles integrated with Uncle Bob's Clean Architecture seams and the **🛑 The Pause Rule Gate**.
-- **📱 Apple HIG Aesthetics & Mobile-Ready**: Dark mode typography, smooth micro-interactions, responsive design across desktop, tablet, and smartphones.
+### 🌟 Apa Saja Isi Dokumentasi Web-nya?
+- **🗂️ Katalog Interaktif 15 Skill**: Penjelasan mendalam semua 15 skill di 6 fase SDLC, lengkap dengan contoh prompt nyata, kontrak input/output, dan dokumentasi Diátaxis.
+- **⚡ Konfigurator Instalasi Siap Salin**: Skrip sekali klik dan perintah `npx skills` untuk macOS, Linux, dan Windows yang bisa langsung disalin ke clipboard.
+- **📐 Visualisasi Siklus 6 Fase**: Peta visual prinsip heuristik George Pólya (1945) yang dipadukan dengan batas-batas Clean Architecture ala Uncle Bob dan **🛑 Gerbang The Pause Rule**.
+- **📱 Tampilan Bergaya Apple HIG & Ramah Ponsel**: Tipografi mode gelap, animasi halus, dan tampilan responsif di desktop, tablet, maupun smartphone.
 
 ---
 
-## 📚 The Origin Story: Why George Pólya?
+## 📚 Latar Belakang: Kenapa George Pólya?
 
 <p align="center">
   <img src="polya-books-cats.jpg" alt="George Pólya - How to Solve It" width="680">
 </p>
 
-### The Fundamental Flaw of Modern AI Coding
+### Kelemahan Mendasar AI Coding Saat Ini
 
-Large Language Models are, by their architectural nature, **greedy token generators**. When given a prompt like *"Build me an authentication service with Redis"*, an AI agent immediately begins emitting lines of code.
+Large Language Model (LLM), pada dasarnya, adalah **mesin penghasil kata yang "rakus"**: ia langsung menulis begitu diberi perintah. Ketika diminta *"Buatkan layanan autentikasi dengan Redis"*, AI agent akan langsung menuliskan baris demi baris kode.
 
-It plunges straight into writing implementation details without pausing to ask:
-- *What are the precise invariants and boundaries of the problem?*
-- *What data models already exist in the codebase?*
-- *What edge cases will cause silent failures in production?*
+Ia langsung masuk ke detail implementasi tanpa berhenti sejenak untuk bertanya:
+- *Apa saja aturan baku (invariant) dan batasan dari masalah ini?*
+- *Model data apa yang sudah ada di codebase?*
+- *Kasus pinggir apa yang bisa menyebabkan kegagalan diam-diam di production?*
 
-The result is painfully familiar to anyone using AI assistants: hallucinated libraries, premature horizontal coding, broken architectural seams, and brittle patches that fall apart on the first edge case. **Over 90% of AI-generated bugs stem not from syntactic errors, but from premature implementation on top of misunderstood requirements.**
+Hasilnya sudah sangat akrab bagi siapa pun yang memakai asisten AI: library yang ternyata tidak ada (halusinasi), kode yang ditulis terlalu dini secara berlapis-lapis, batas arsitektur yang rusak, dan tambalan rapuh yang langsung ambruk di kasus pinggir pertama. **Lebih dari 90% bug dari kode buatan AI bukan berasal dari salah ketik atau salah sintaks, melainkan dari implementasi yang terburu-buru di atas kebutuhan yang belum dipahami dengan benar.**
 
-### George Pólya's 1945 Discovery (*How to Solve It*)
+### Temuan George Pólya Tahun 1945 (*How to Solve It*)
 
-In 1945, Hungarian mathematician **George Pólya** (1887–1985) published *How to Solve It*, a foundational treatise on heuristics and mathematical problem-solving that went on to sell over a million copies worldwide.
+Pada tahun 1945, matematikawan Hungaria **George Pólya** (1887–1985) menerbitkan *How to Solve It*, buku dasar tentang heuristik (cara berpikir untuk menemukan solusi) dan pemecahan masalah matematika yang terjual lebih dari satu juta eksemplar di seluruh dunia.
 
-Pólya demonstrated that human breakthroughs in mathematics and engineering do not occur by rushing into calculations or blind trial-and-error. Instead, they require a disciplined mental framework consisting of **Four Invariant Stages**:
+Pólya menunjukkan bahwa terobosan dalam matematika dan rekayasa tidak lahir dari buru-buru menghitung atau coba-coba tanpa arah. Terobosan butuh kerangka berpikir yang disiplin, terdiri dari **Empat Tahap Tetap**:
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
-│                   GEORGE PÓLYA'S 4-STAGE HEURISTIC (1945)              │
+│                  TAHAP HEURISTIK GEORGE PÓLYA (1945)                   │
 ├────────────────────────────────────────────────────────────────────────┤
-│ 1. UNDERSTAND THE PROBLEM  ➔  What is the unknown? What are the data?  │
-│                               What is the condition? Can it be met?    │
-│ 2. DEVISE A PLAN           ➔  Find connections between data & unknown. │
-│                               Isolate auxiliary problems. Restate it.  │
-│ 3. CARRY OUT THE PLAN      ➔  Check each step. Can you prove that each │
-│                               individual step is sound and correct?    │
-│ 4. LOOK BACK (EXAMINE)     ➔  Check the result. Derive it differently. │
-│                               Promote reusable patterns to memory.     │
+│ 1. MEMAHAMI MASALAH        ➔  Apa yang dicari? Data apa yang ada?      │
+│                               Apa syaratnya? Bisakah dipenuhi?         │
+│ 2. MENYUSUN RENCANA        ➔  Hubungkan data dengan yang dicari.       │
+│                               Pecah jadi sub-masalah. Rumuskan ulang.  │
+│ 3. MENJALANKAN RENCANA     ➔  Periksa setiap langkah.                  │
+│                               Pastikan tiap langkah benar & terbukti.  │
+│ 4. MENINJAU KEMBALI        ➔  Cek hasilnya. Coba dengan cara lain.     │
+│                               Simpan pola yang bisa dipakai ulang.     │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
-> *"It is foolish to answer a question that you do not understand. It is sad to work for an end that you do not desire."*  
+> *"Bodoh rasanya menjawab pertanyaan yang tidak kita pahami. Menyedihkan rasanya bekerja untuk tujuan yang tidak kita inginkan."*  
 > — **George Pólya**, *How to Solve It (1945)*
 
-### Bridging Mathematics, Uncle Bob's Clean Architecture & AI Agents
+### Menjembatani Matematika, Clean Architecture ala Uncle Bob & AI Agent
 
-**Pólya SDLC Coder** was born from a simple realization: **AI coding agents need Pólya's mental discipline more than human developers do.**
+**Pólya SDLC Coder** lahir dari satu kesadaran sederhana: **AI coding agent justru lebih membutuhkan disiplin berpikir Pólya dibanding developer manusia.**
 
-By mapping Pólya's 1945 mathematical framework directly onto **Robert C. Martin's ("Uncle Bob") Clean Architecture** and modular agent skills, we transform unpredictable AI assistants into disciplined, principal-level engineering partners:
+Dengan memetakan kerangka matematika Pólya langsung ke **Clean Architecture karya Robert C. Martin ("Uncle Bob")** dan skill agent yang modular, asisten AI yang tadinya sulit ditebak berubah menjadi rekan kerja yang disiplin selevel *principal engineer*:
 
-| George Pólya's Heuristic (1945) | Software Craftsmanship Seam | Pólya SDLC Agent Skill |
+| Heuristik George Pólya (1945) | Praktik Rekayasa Perangkat Lunak | Skill Agent Pólya SDLC |
 | :--- | :--- | :--- |
-| **"Understanding the Problem"** | Domain Boundaries, DTOs & Contracts | [`/to-spec`](skills/to-spec) & [`/to-explore`](skills/to-explore) |
-| **"Socratic Sparring & Challenging Premises"** | Adversarial Design Interview & A/B Trade-Offs | [`/to-grill-me`](skills/to-grill-me) |
-| **"Interrogating the Condition"** | Edge-Case Invariants & Assumption Auditing | [`/to-clarify`](skills/to-clarify) |
-| **"Devising a Plan & Auxiliary Problems"** | Vertical Tracer Bullets & Plan B | [`/to-plan`](skills/to-plan) |
-| **"The Hesitation Before Calculating"** | Explicit Human Alignment Gate | **🛑 The Pause Rule Gate** |
-| **"Carrying Out the Plan"** | Uncle Bob's Clean Code & Micro-TDD | [`/to-code`](skills/to-code) & [`/to-quick-fix`](skills/to-quick-fix) |
-| **"Looking Back & Examining the Result"** | 5 SOLID Principles Audit & Diátaxis Docs | [`/to-review`](skills/to-review) & [`/to-docs`](skills/to-docs) |
-| **"The Two Golden Questions (Memory)"** | Cross-Session Architectural Knowledge | [`/to-memory`](skills/to-memory) |
+| **"Memahami Masalah"** | Batas domain, DTO & kontrak data | [`/to-spec`](skills/to-spec) & [`/to-explore`](skills/to-explore) |
+| **"Diskusi Kritis & Menggugat Premis"** | Wawancara desain yang menantang & pilihan A/B | [`/to-grill-me`](skills/to-grill-me) |
+| **"Menginterogasi Syarat"** | Invariant kasus pinggir & audit asumsi | [`/to-clarify`](skills/to-clarify) |
+| **"Menyusun Rencana & Sub-Masalah"** | Tracer bullet vertikal & Plan B | [`/to-plan`](skills/to-plan) |
+| **"Jeda Sebelum Menghitung"** | Gerbang persetujuan eksplisit dari manusia | **🛑 Gerbang The Pause Rule** |
+| **"Menjalankan Rencana"** | Clean Code ala Uncle Bob & Micro-TDD | [`/to-code`](skills/to-code) & [`/to-quick-fix`](skills/to-quick-fix) |
+| **"Meninjau Kembali & Memeriksa Hasil"** | Audit 5 prinsip SOLID & dokumentasi Diátaxis | [`/to-review`](skills/to-review) & [`/to-docs`](skills/to-docs) |
+| **"Dua Pertanyaan Emas (Memori)"** | Pengetahuan arsitektur lintas sesi | [`/to-memory`](skills/to-memory) |
 
-This system prevents the agent from writing a single line of application code until the problem is fully deconstructed, assumptions are verified, and you have personally given explicit approval at **The Pause Rule**.
+Sistem ini mencegah agent menulis satu baris kode aplikasi pun sampai masalahnya benar-benar diurai, asumsinya sudah diverifikasi, dan kamu sendiri sudah memberi persetujuan eksplisit di **The Pause Rule**.
 
 ---
 
-## 🚀 Quick Start & Installation
+## 🚀 Mulai Cepat & Instalasi
 
 > [!TIP]
-> **Try the Interactive Web Configurator**: You can also use our [Live Web Installation Configurator](https://gulajavaministudio.github.io/polya-sdlc-coder/#install) to easily switch between operating systems and copy terminal scripts with one click.
+> **Coba Konfigurator Web Interaktif**: Kamu juga bisa memakai [Konfigurator Instalasi Web](https://gulajavaministudio.github.io/polya-sdlc-coder/#install) untuk berganti sistem operasi dengan mudah dan menyalin skrip terminal dengan sekali klik.
 
-You can install **Pólya SDLC Coder** into your project using any of the three methods below:
+Kamu bisa memasang **Pólya SDLC Coder** ke proyekmu dengan salah satu dari tiga cara berikut:
 
-### Method 1: Agentic Installation via `npx skills` (Recommended)
+### Cara 1: Instalasi via `npx skills` (Direkomendasikan)
 
-The modern, package-manager-free way to install AI agent skills across tools (GitHub Copilot, Google Antigravity, Cursor, Claude Code, and more).
+Cara modern tanpa perlu package manager tambahan untuk memasang skill AI agent di berbagai tool (GitHub Copilot, Google Antigravity, Cursor, Claude Code, dan lainnya).
 
 > [!NOTE]
-> `npx skills` automatically inspects the [`skills/`](skills) directory in this repository to discover and pull the agent skills into your project.
+> `npx skills` otomatis memeriksa folder [`skills/`](skills) di repository ini untuk menemukan dan menarik skill agent ke proyekmu.
 
-#### Option A: Install the Bootstrapper Skill (`to-init`)
+#### Opsi A: Pasang Skill Bootstrapper (`to-init`) Saja
 
-Install just the bootstrapper skill to keep your skills directory lightweight:
+Pasang skill bootstrapper saja agar folder skill tetap ringan:
 
 ```bash
 # Add to-init via GitHub shorthand
 npx skills add GulajavaMinistudio/polya-sdlc-coder/skills/to-init
 ```
 
-Then in your AI Assistant chat window, run:
+Lalu di jendela chat AI Assistant kamu, jalankan:
 
 ```text
 /to-init setup this project
 ```
 
-The bootstrapper will autonomously configure project governance (`AGENTS.md`), orchestrator rules (`.agents/rules/PolyaOrchestrator.md`), standards, instructions, and all sub-skills into your repository.
+Bootstrapper akan otomatis menyiapkan aturan proyek (`AGENTS.md`), aturan orkestrator (`.agents/rules/PolyaOrchestrator.md`), standar, instruksi, dan semua sub-skill ke dalam repository kamu.
 
-#### Option B: Install All Skills Directly
+#### Opsi B: Pasang Semua Skill Sekaligus
 
-If you prefer to install the entire 15-skill suite directly into your project:
+Kalau kamu ingin langsung memasang seluruh 15 skill ke proyekmu:
 
 ```bash
 # Add all skills from this repository
 npx skills add GulajavaMinistudio/polya-sdlc-coder
 ```
 
-After installation, run `/to-init` in your chat window to scaffold the root `AGENTS.md` and project governance files.
+Setelah terpasang, jalankan `/to-init` di jendela chat untuk membuat file `AGENTS.md` di root proyek beserta file-file aturan proyek lainnya.
 
 ---
 
-### Method 2: Automated Interactive Script (One-Liner)
+### Cara 2: Skrip Interaktif Otomatis (Satu Baris Perintah)
 
-Run the interactive installer from your terminal in the root of your target project. It safely backs up existing memory files and lets you choose target platforms (`.agents/`, `.claude/`, or `.cursor/`):
+Jalankan installer interaktif dari terminal di folder root proyek tujuan. Skrip ini akan mencadangkan file memori yang sudah ada dengan aman dan membiarkan kamu memilih platform tujuan (`.agents/`, `.claude/`, atau `.cursor/`):
 
 #### 🪟 Windows (PowerShell)
 
@@ -176,16 +176,16 @@ irm https://raw.githubusercontent.com/GulajavaMinistudio/polya-sdlc-coder/main/i
 curl -fsSL https://raw.githubusercontent.com/GulajavaMinistudio/polya-sdlc-coder/main/install.sh | bash
 ```
 
-The interactive script will:
-1. Clone or download the latest release of `polya-sdlc-coder`.
-2. Ask you to select target platform folders (`.agents/`, `.claude/`, or `.cursor/`).
-3. Preserve and merge existing `AGENTS.md` or `memory.instructions.md` safely.
+Skrip interaktif ini akan:
+1. Meng-clone atau mengunduh rilis terbaru `polya-sdlc-coder`.
+2. Meminta kamu memilih folder platform tujuan (`.agents/`, `.claude/`, atau `.cursor/`).
+3. Mempertahankan dan menggabungkan `AGENTS.md` atau `memory.instructions.md` yang sudah ada dengan aman.
 
 ---
 
-### Method 3: Manual Installation
+### Cara 3: Instalasi Manual
 
-If you prefer full manual control:
+Kalau kamu ingin kendali penuh secara manual:
 
 ```bash
 # 1. Clone the repository
@@ -207,24 +207,24 @@ cp polya-sdlc-coder/AGENTS.md /path/to/your/project/
 
 ---
 
-## 🔄 The Idea-to-Ship Spine
+## 🔄 Alur Utama: Dari Ide sampai Rilis
 
-Pólya SDLC follows a strict, disciplined pipeline designed to eliminate ambiguity and prevent messy code iteration:
+Pólya SDLC mengikuti alur kerja yang ketat dan disiplin, dirancang untuk menghilangkan ambiguitas dan mencegah kode yang berantakan karena bolak-balik revisi:
 
 ```text
 ====================================================================================================
-               POLYA-SDLC COMPLETE PIPELINE: DISCOVERY ➔ SPEC ➔ PLAN ➔ CODE ➔ REVIEW ➔ DOCS
+               ALUR LENGKAP POLYA-SDLC: DISCOVERY ➔ SPEC ➔ PLAN ➔ CODE ➔ REVIEW ➔ DOCS
 ====================================================================================================
 
-[ Phase 0: DISCOVERY & EXPLORATION ] (Pólya Phase 0: Getting Acquainted)
+[ Fase 0: DISCOVERY & EKSPLORASI ] (Pólya Fase 0: Mengenal Masalah)
       │
       ▼
 ┌───────────────────────────────┐
-│ /to-explore                   │ ──▶ [ docs/discovery/ ] ──▶ ( Topography Critique, Trade-Offs, Spikes )
+│ /to-explore                   │ ──▶ [ docs/discovery/ ] ──▶ ( Kritik Struktur Repo, Trade-Off, Spike )
 └───────────────────────────────┘
       │
       ├─────────────────────────────────────────────────┐
-      │ (Path A: Optional Business Requirements)       │ (Path B: Direct Technical Architecture)
+      │ (Jalur A: Kebutuhan Bisnis, opsional)           │ (Jalur B: Langsung ke Arsitektur Teknis)
       ▼                                                 │
 ┌───────────────────────────────┐                       │
 │ /to-prd                       │ ──▶ [ docs/prd/ ]     │
@@ -233,32 +233,32 @@ Pólya SDLC follows a strict, disciplined pipeline designed to eliminate ambigui
       └─────────────────────────┬───────────────────────┘
                                 │
                                 ▼
-[ Phase 1: SPECIFICATION ] (Pólya Phase 1: Understand the Problem)
+[ Fase 1: SPESIFIKASI ] (Pólya Fase 1: Memahami Masalah)
       │
       ▼
 ┌───────────────────────────────┐
-│ /to-spec                      │ ──▶ [ docs/spec/ & docs/adr/ ] ──▶ ( Sanity Check & Equation Mapping )
+│ /to-spec                      │ ──▶ [ docs/spec/ & docs/adr/ ] ──▶ ( Cek Kewajaran & Pemetaan Persamaan )
 └───────────────────────────────┘
       │
       ├─────────────────────────────────────────────────┐
-      │ (Turn-by-turn design sparring)                  │ (Formal condition sanity check)
+      │ (Sparring desain tanya-jawab)                   │ (Cek kewajaran syarat secara formal)
       ▼                                                 ▼
 ┌───────────────────────────────┐               ┌───────────────────────────────┐
 │ /to-grill-me                  │               │ /to-clarify                   │ ──▶ [ docs/audit/ ]
 └───────────────────────────────┘               └───────────────────────────────┘
-      │ (Decisions Log & ADRs)                          │ (Readiness Score >= 80)
+      │ (Log Keputusan & ADR)                           │ (Skor Kesiapan >= 80)
       └─────────────────────────┬───────────────────────┘
                                 │
                                 ▼
-[ Phase 2: PLANNING ] (Pólya Phase 2: Devising a Plan)
+[ Fase 2: PERENCANAAN ] (Pólya Fase 2: Menyusun Rencana)
       │
       ▼
 ┌───────────────────────────────┐
-│ /to-plan                      │ ──▶ [ docs/plan/ ] ──▶ ( Land & Expand / Tracer Bullets )
+│ /to-plan                      │ ──▶ [ docs/plan/ ] ──▶ ( Land & Expand / Tracer Bullet )
 └───────────────────────────────┘
       │
       ├─────────────────────────────────────────────────┐
-      │ (Plan Stress-Testing & Plan B)                  │ (Plan Readiness Gate)
+      │ (Uji ketahanan rencana & Plan B)                │ (Gerbang kesiapan rencana)
       ▼                                                 ▼
 ┌───────────────────────────────┐               ┌───────────────────────────────┐
 │ /to-grill-me                  │               │ /to-clarify                   │
@@ -267,212 +267,213 @@ Pólya SDLC follows a strict, disciplined pipeline designed to eliminate ambigui
       └─────────────────────────┬───────────────────────┘
                                 │
                                 ▼
-🛑 MANDATORY GATE: THE PAUSE RULE
-(Halt execution! Await explicit user confirmation before writing functional code)
+🛑 GERBANG WAJIB: THE PAUSE RULE
+(Berhenti! Tunggu persetujuan eksplisit dari user sebelum menulis kode fungsional)
       │
-      ▼ [Approved]
-[ Phase 3: IMPLEMENTATION ] (Pólya Phase 3: Carrying Out the Plan)
+      ▼ [Disetujui]
+[ Fase 3: IMPLEMENTASI ] (Pólya Fase 3: Menjalankan Rencana)
       │
       ▼
 ┌───────────────────────────────┐
-│ /to-code                      │ ──▶ ( Clean Code, Respice Finem, Boy Scout Rule, Surgical Edits )
+│ /to-code                      │ ──▶ ( Clean Code, Respice Finem, Boy Scout Rule, Edit Presisi )
 └───────────────────────────────┘
       │
       ▼
-[ Phase 4: REVIEW & AUDIT ] (Pólya Phase 4: Looking Back)
+[ Fase 4: REVIEW & AUDIT ] (Pólya Fase 4: Meninjau Kembali)
       │
       ├───────────────────────────────┐
-      │ (If Verified & Approved)      │ (If Defects / Invariant Violations Emerge)
+      │ (Jika lolos & disetujui)      │ (Jika ada cacat / invariant dilanggar)
       ▼                               ▼
 ┌───────────────────────────────┐   ┌───────────────────────────────┐
-│ /to-docs                      │   │ /to-fix                       │ ──▶ ( First Principles, Trace Broken Seam )
+│ /to-docs                      │   │ /to-fix                       │ ──▶ ( Kembali ke Prinsip Dasar, Lacak Seam yang Rusak )
 └───────────────────────────────┘   └───────────────────────────────┘
       │ [docs/{tutorials,how-to,reference,explanation}/]
       ▼
-[ Phase 6: TECHNICAL DOCUMENTATION ] (Pedagogical Transfer & Diátaxis Framework)
+[ Fase 6: DOKUMENTASI TEKNIS ] (Transfer Pengetahuan & Kerangka Diátaxis)
 
 ════════════════════════════════════════════════════════════════════════════
-[ AUTONOMOUS HUB / TRIAGE ]     ──▶ /to-ask-help   (Autonomous intent reconnaissance & diagnostic)
-[ SOCRATIC SPARRING ]          ──▶ /to-grill-me   (Turn-by-turn design interview & stress-test)
-[ FAST-TRACK BYPASS ]           ──▶ /to-quick-fix  (Routine, XS/S, One-Shot Fixes)
-[ ARCHITECTURE TOPOGRAPHY ]     ──▶ /to-map        (Traverse, Seams, docs/ARCHITECTURE.md)
-[ PERSISTENT MEMORY ]           ──▶ /to-memory     (Checkpoint to memory.instructions.md)
-[ PROJECT BOOTSTRAPPER ]        ──▶ /to-init       (Scaffold AGENTS.md & .agents/ suite)
+[ PUSAT TRIASE OTOMATIS ]       ──▶ /to-ask-help   (Analisis maksud & diagnosis otomatis)
+[ SPARRING SOKRATIK ]           ──▶ /to-grill-me   (Wawancara desain bergiliran & uji ketahanan)
+[ JALUR CEPAT ]                 ──▶ /to-quick-fix  (Perbaikan rutin, ukuran XS/S, sekali jalan)
+[ PETA ARSITEKTUR ]             ──▶ /to-map        (Telusuri struktur, Seam, docs/ARCHITECTURE.md)
+[ MEMORI PERSISTEN ]            ──▶ /to-memory     (Simpan checkpoint ke memory.instructions.md)
+[ INISIALISASI PROYEK ]         ──▶ /to-init       (Siapkan AGENTS.md & paket .agents/)
 ════════════════════════════════════════════════════════════════════════════
 ```
 
 ---
 
-## 🧰 Skill Catalog
+## 🧰 Katalog Skill
 
 > [!TIP]
-> Explore, search, and inspect the complete 15-skill catalog with copyable chat prompts in our [Interactive Web Skill Catalog](https://gulajavaministudio.github.io/polya-sdlc-coder/#skills).
+> Jelajahi, cari, dan periksa katalog lengkap 15 skill beserta contoh prompt yang bisa disalin di [Katalog Skill Web Interaktif](https://gulajavaministudio.github.io/polya-sdlc-coder/#skills).
 
-Each skill in Pólya SDLC is modular, standalone, and focused on a single responsibility:
+Setiap skill di Pólya SDLC bersifat modular, bisa berdiri sendiri, dan fokus pada satu tanggung jawab:
 
-| Slash Command | Skill Folder | Phase / Role | Description & Pólya Heuristic Focus | Primary Output Artifact |
+| Slash Command | Folder Skill | Fase / Peran | Deskripsi & Fokus Heuristik Pólya | Hasil Utama |
 | :--- | :--- | :--- | :--- | :--- |
-| **`/to-ask-help`** | [`to-ask-help`](skills/to-ask-help) | **Hub & Triage** | Autonomous codebase reconnaissance, intent classification, and Socratic 3-question diagnostic. | Triage Card & Routing Guidance |
-| **`/to-explore`** | [`to-explore`](skills/to-explore) | **Phase 0: Discovery** | Problem framing, repository topography critique, architectural trade-offs (*Inventor's Paradox*), and spikes. | `docs/discovery/{slug}-discovery.md` |
-| **`/to-prd`** | [`to-prd`](skills/to-prd) | **Phase 0.5: PRD** | Business problem framing, SMART user stories, and acceptance boundaries (*Optional branch*). | `docs/prd/{slug}-prd.md` |
-| **`/to-spec`** | [`to-spec`](skills/to-spec) | **Phase 1: Spec** | Deconstruct *Unknown, Data, Condition*, *Setting Up Equations* (DTOs), and map Clean Architecture seams. | `docs/spec/{slug}-spec.md` + `docs/adr/` |
-| **`/to-grill-me`** | [`to-grill-me`](skills/to-grill-me) | **Sparring: Socratic Interview** | Turn-by-turn design interview, Devil's Advocate, 1-question A/B trade-offs, and stress-testing. | Decisions Log & ADR Proposal |
-| **`/to-clarify`** | [`to-clarify`](skills/to-clarify) | **Checkpoint: Clarify** | Interrogate ambiguities, `[ASSUMPTION]` tags, Condition Sanity Check, and Readiness Score (0–100). | `docs/audit/{slug}-clarification.md` |
-| **`/to-plan`** | [`to-plan`](skills/to-plan) | **Phase 2: Plan** | *Working Backwards*, *Auxiliary Problems*, Land & Expand (Tracer Bullets), Plan B, and **The Pause Rule**. | `docs/plan/{slug}-plan.md` |
-| **`/to-code`** | [`to-code`](skills/to-code) | **Phase 3: Implement** | Clean Code execution, single-responsibility small functions, and *Boy Scout Rule* compliance. | Production Source Code & Tests |
-| **`/to-review`** | [`to-review`](skills/to-review) | **Phase 4: Review** | Risk-tiered code/PR review (`Quick`/`Standard`/`Deep`), 5 SOLID principles, 14-vector defensive security, `[Important]`/`[Nit]`/`[Pre-existing]` signal filtering, `Bug Class` sweeps, 3-round convergence, and `GO/NO-GO` release gate. Supports `/to-review security`. | `docs/reviews/{slug}-review.md` |
-| **`/to-fix`** | [`to-fix`](skills/to-fix) | **Phase 5: Bug Fix** | Cease blind patching, return to First Principles, trace broken seams, and formulate reproduction test. | `docs/bug-reports/{slug}-bugfix.md` |
-| **`/to-docs`** | [`to-docs`](skills/to-docs) | **Phase 6: Docs** | Author structured documentation based on the 4 Diátaxis quadrants (Tutorials, How-To, Reference, Explanation). | `docs/{quadrant}/{slug}.md` |
-| **`/to-quick-fix`** | [`to-quick-fix`](skills/to-quick-fix) | **Fast-Track Bypass** | Routine problems, one-shot surgical fixes, and minor refactors (*Pedantry vs Mastery*, *The Excavator Rule*). | Surgical File Diff ($\le 2$ files) |
-| **`/to-map`** | [`to-map`](skills/to-map) | **Utility: Topography** | Traverse directory structure, map Clean Architecture seams, and generate `docs/ARCHITECTURE.md`. | `docs/ARCHITECTURE.md` |
-| **`/to-memory`** | [`to-memory`](skills/to-memory) | **Utility: Memory** | Read, write, and compact session context to/from `memory.instructions.md`. | `memory.instructions.md` |
-| **`/to-init`** | [`to-init`](skills/to-init) | **Utility: Scaffolding** | Autonomous setup and architecture bootstrapper for project governance. | `AGENTS.md` + `.agents/` |
+| **`/to-ask-help`** | [`to-ask-help`](skills/to-ask-help) | **Pusat & Triase** | Menelusuri codebase secara otomatis, mengenali maksud permintaan, dan mendiagnosis lewat 3 pertanyaan Sokratik. | Triage Card & Arahan Skill |
+| **`/to-explore`** | [`to-explore`](skills/to-explore) | **Fase 0: Discovery** | Membingkai masalah, mengkritisi struktur repository, menimbang trade-off arsitektur (*Inventor's Paradox*), dan melakukan *spike* (percobaan kecil). | `docs/discovery/{slug}-discovery.md` |
+| **`/to-prd`** | [`to-prd`](skills/to-prd) | **Fase 0.5: PRD** | Membingkai masalah bisnis, menyusun user story yang SMART, dan batasan penerimaan (*cabang opsional*). | `docs/prd/{slug}-prd.md` |
+| **`/to-spec`** | [`to-spec`](skills/to-spec) | **Fase 1: Spec** | Mengurai *Yang Dicari, Data, Syarat*, menyusun "persamaan" berupa DTO, dan memetakan batas Clean Architecture. | `docs/spec/{slug}-spec.md` + `docs/adr/` |
+| **`/to-grill-me`** | [`to-grill-me`](skills/to-grill-me) | **Sparring: Wawancara Sokratik** | Wawancara desain bergiliran, berperan sebagai *Devil's Advocate*, satu pertanyaan A/B per giliran, dan uji ketahanan desain. | Log Keputusan & Usulan ADR |
+| **`/to-clarify`** | [`to-clarify`](skills/to-clarify) | **Checkpoint: Klarifikasi** | Membongkar ambiguitas, tag `[ASSUMPTION]`, cek kewajaran syarat, dan Skor Kesiapan (0–100). | `docs/audit/{slug}-clarification.md` |
+| **`/to-plan`** | [`to-plan`](skills/to-plan) | **Fase 2: Plan** | *Berpikir mundur dari tujuan*, *sub-masalah bantu*, Land & Expand (tracer bullet), Plan B, dan **The Pause Rule**. | `docs/plan/{slug}-plan.md` |
+| **`/to-code`** | [`to-code`](skills/to-code) | **Fase 3: Implementasi** | Menulis kode dengan Clean Code, fungsi kecil bertanggung jawab tunggal, dan patuh pada *Boy Scout Rule*. | Kode Production & Test |
+| **`/to-review`** | [`to-review`](skills/to-review) | **Fase 4: Review** | Review kode/PR berbasis tingkat risiko (`Quick`/`Standard`/`Deep`), 5 prinsip SOLID, 14 vektor keamanan defensif, penyaringan temuan `[Important]`/`[Nit]`/`[Pre-existing]`, penyisiran `Bug Class`, konvergensi 3 putaran, dan gerbang rilis `GO/NO-GO`. Mendukung `/to-review security`. | `docs/reviews/{slug}-review.md` |
+| **`/to-fix`** | [`to-fix`](skills/to-fix) | **Fase 5: Perbaikan Bug** | Berhenti menambal secara asal, kembali ke prinsip dasar, melacak seam yang rusak, dan membuat test yang mereproduksi bug. | `docs/bug-reports/{slug}-bugfix.md` |
+| **`/to-docs`** | [`to-docs`](skills/to-docs) | **Fase 6: Dokumentasi** | Menulis dokumentasi terstruktur berdasarkan 4 kuadran Diátaxis (Tutorial, How-To, Referensi, Penjelasan). | `docs/{quadrant}/{slug}.md` |
+| **`/to-quick-fix`** | [`to-quick-fix`](skills/to-quick-fix) | **Jalur Cepat** | Masalah rutin, perbaikan presisi sekali jalan, dan refactor kecil (*Pedantry vs Mastery*, *The Excavator Rule*). | Diff File Presisi ($\le 2$ file) |
+| **`/to-map`** | [`to-map`](skills/to-map) | **Utilitas: Peta Struktur** | Menelusuri struktur folder, memetakan batas Clean Architecture, dan membuat `docs/ARCHITECTURE.md`. | `docs/ARCHITECTURE.md` |
+| **`/to-memory`** | [`to-memory`](skills/to-memory) | **Utilitas: Memori** | Membaca, menulis, dan meringkas konteks sesi ke/dari `memory.instructions.md`. | `memory.instructions.md` |
+| **`/to-init`** | [`to-init`](skills/to-init) | **Utilitas: Scaffolding** | Menyiapkan arsitektur dan aturan proyek secara otomatis. | `AGENTS.md` + `.agents/` |
 
 ---
 
-## 📖 How to Use: A Typical Workflow
+## 📖 Cara Pakai: Contoh Alur Kerja
 
-### 1. Route Your Request (The Socratic Navigator)
+### 1. Arahkan Permintaanmu (Navigator Sokratik)
 
-Don't know which phase to start with? Simply ask:
+Bingung harus mulai dari fase mana? Cukup tanyakan:
 
 ```text
 /to-ask-help Add real-time order tracking using WebSockets and Redis
 ```
 
-The navigator conducts autonomous reconnaissance of your codebase, evaluates Unknown vs Data vs Condition, and presents a **Pólya Triage Card**:
+Navigator akan menelusuri codebase kamu secara otomatis, menimbang *Yang Dicari* vs *Data* vs *Syarat*, lalu menampilkan **Pólya Triage Card**:
 
 ```text
 +-----------------------------------------------------------------------+
 |                         POLYA TRIAGE CARD                             |
 +-----------------------------------------------------------------------+
-| The Unknown   : Real-time WebSocket order tracking stream             |
-| The Data      : Order entity, Redis Pub/Sub adapter, React UI hook    |
-| The Condition : Sub-100ms latency, automatic reconnection, JWT auth   |
-| Seams Found   : Domain (Order), Adapters (RedisStream), UI (Hook)     |
-| Recommended   : /to-explore or /to-spec @docs/spec/...                |
+| Yang Dicari   : Stream pelacakan pesanan real-time via WebSocket      |
+| Data          : Entity Order, adapter Redis Pub/Sub, hook React UI    |
+| Syarat        : Latensi < 100ms, auto-reconnect, autentikasi JWT      |
+| Seam Ditemukan: Domain (Order), Adapter (RedisStream), UI (Hook)      |
+| Rekomendasi   : /to-explore atau /to-spec @docs/spec/...              |
 +-----------------------------------------------------------------------+
 ```
 
 ---
 
-### 2. Problem Discovery & Architectural Spikes (`/to-explore`)
+### 2. Eksplorasi Masalah & Percobaan Arsitektur (`/to-explore`)
 
-Before locking in schemas or code, explore feasibility, technology tradeoffs, and repository topology:
+Sebelum mengunci skema atau menulis kode, jelajahi dulu kelayakan, trade-off teknologi, dan struktur repository:
 
 ```text
 /to-explore Investigate architecture options for real-time order tracking (WebSockets vs SSE vs Polling)
 ```
 
-The agent surveys the codebase, benchmarks options against existing dependencies, and outputs `docs/discovery/order-tracking-discovery.md`:
-- **Repository Topography Critique**: Evaluates existing state management, HTTP layers, and message buses.
-- **Trade-Off Analysis (*The Inventor's Paradox*)**: Weighs WebSockets vs SSE vs Long-Polling across complexity, latency, and infrastructure cost.
-- **Architectural Spikes**: Outlines minimal prototype verification without cluttering production seams.
+Agent akan menelusuri codebase, membandingkan pilihan-pilihan dengan dependensi yang sudah ada, lalu menghasilkan `docs/discovery/order-tracking-discovery.md`:
+- **Kritik Struktur Repository**: Menilai manajemen state, lapisan HTTP, dan message bus yang sudah ada.
+- **Analisis Trade-Off (*The Inventor's Paradox*)**: Menimbang WebSocket vs SSE vs Long-Polling dari sisi kompleksitas, latensi, dan biaya infrastruktur.
+- **Spike Arsitektur**: Merancang verifikasi prototipe minimal tanpa mengotori kode production.
 
 ---
 
-### 3. (Optional) Define Business Requirements & User Stories (`/to-prd`)
+### 3. (Opsional) Tentukan Kebutuhan Bisnis & User Story (`/to-prd`)
 
-When a feature requires deep product alignment, user stories, and business acceptance criteria:
+Dipakai ketika sebuah fitur butuh keselarasan produk yang mendalam, user story, dan kriteria penerimaan bisnis:
 
 ```text
 /to-prd @docs/discovery/order-tracking-discovery.md
 ```
 
-The agent frames the business perspective and generates `docs/prd/order-tracking-prd.md`:
-- **User Personas & Stories**: Formulates *As a customer, I want to track my delivery rider in real time...*
-- **SMART Acceptance Criteria**: Defines observable metrics (e.g., location updates arrive within $\le 2$ seconds).
-- **Explicit Non-Goals**: Enforces strict boundaries (e.g., in-app rider chat is out of scope for V1).
+Agent akan menyusun sudut pandang bisnis dan menghasilkan `docs/prd/order-tracking-prd.md`:
+- **Persona & User Story**: Contohnya, *Sebagai pelanggan, saya ingin melacak kurir pengantar secara real-time...*
+- **Kriteria Penerimaan yang SMART**: Menetapkan ukuran yang bisa diamati (misalnya, pembaruan lokasi tiba dalam $\le 2$ detik).
+- **Hal yang Tidak Dikerjakan (Non-Goals)**: Menetapkan batas yang tegas (misalnya, fitur chat dengan kurir tidak termasuk di versi 1).
 
 ---
 
-### 4. Specify & Map Architectural Seams (`/to-spec`)
+### 4. Tulis Spesifikasi & Petakan Batas Arsitektur (`/to-spec`)
 
-Transform product requirements or discovery findings into a formal technical blueprint:
+Ubah kebutuhan produk atau hasil eksplorasi menjadi cetak biru teknis yang formal:
 
 ```text
 /to-spec @docs/prd/order-tracking-prd.md
 ```
-*(Or directly from discovery: `/to-spec @docs/discovery/order-tracking-discovery.md`)*
+*(Atau langsung dari hasil discovery: `/to-spec @docs/discovery/order-tracking-discovery.md`)*
 
-The agent creates `docs/spec/order-tracking-spec.md`, defining:
-- **Clean Architecture Boundaries**: Entities ➔ Use Cases ➔ Interface Adapters ➔ Infrastructure.
-- **DTOs & Discriminated Unions**: Complete payload schemas.
-- **Invariants & Acceptance Criteria**: Tagged with sequential IDs (`REQ-001`, `AC-001`).
-- **Assumptions Tagging**: Explicitly marked with `> [!WARNING] [ASSUMPTION-001]`.
+Agent akan membuat `docs/spec/order-tracking-spec.md` yang mendefinisikan:
+- **Batas Clean Architecture**: Entities ➔ Use Cases ➔ Interface Adapters ➔ Infrastructure.
+- **DTO & Discriminated Union**: Skema payload yang lengkap.
+- **Invariant & Kriteria Penerimaan**: Diberi ID berurutan (`REQ-001`, `AC-001`).
+- **Penandaan Asumsi**: Ditandai secara eksplisit dengan `> [!WARNING] [ASSUMPTION-001]`.
 
 ---
 
-### 5. Socratic Sparring & Design Interview (`/to-grill-me`)
+### 5. Sparring Sokratik & Wawancara Desain (`/to-grill-me`)
 
-Before locking in plans or when facing tough architectural trade-offs, put your design through an adversarial turn-by-turn design interview:
+Sebelum mengunci rencana, atau saat menghadapi pilihan arsitektur yang sulit, uji desainmu lewat wawancara desain bergiliran yang sengaja menantang:
 
 ```text
 /to-grill-me spec @docs/spec/order-tracking-spec.md
 ```
 
-The agent assumes the role of **Pólya Socratic Sparring Partner (The Devil's Advocate)**:
-- **1-Question Rule:** Never overwhelms you with a barrage of questions; asks exactly **ONE** sharp question per turn.
-- **Do the Heavy Lifting:** Proposes 2–3 concrete, technically grounded options (Option A vs. Option B) derived from your repository.
-- **Opinionated Senior Recommendation:** Always recommends the cleanest architectural choice with practical rationale.
-- **Phase-Adaptive Versatility:** Can be summoned for raw ideas (`/to-grill-me "idea"`), PRDs (`/to-grill-me prd`), Specs (`/to-grill-me spec`), or execution plans (`/to-grill-me plan`).
-- **Decisions Log:** Synthesizes settled choices into actionable document diffs or emits an ADR into `docs/adr/`.
+Agent akan berperan sebagai **Pólya Socratic Sparring Partner (si Devil's Advocate)**:
+- **Aturan Satu Pertanyaan:** Tidak pernah membanjirimu dengan banyak pertanyaan; hanya **SATU** pertanyaan tajam per giliran.
+- **Agent yang Bekerja Keras:** Mengusulkan 2–3 pilihan konkret yang berdasar secara teknis (Pilihan A vs Pilihan B), digali dari repository kamu.
+- **Rekomendasi Senior yang Tegas:** Selalu merekomendasikan pilihan arsitektur paling bersih beserta alasan praktisnya.
+- **Bisa Dipakai di Fase Mana Saja:** Bisa dipanggil untuk ide mentah (`/to-grill-me "idea"`), PRD (`/to-grill-me prd`), Spec (`/to-grill-me spec`), atau rencana eksekusi (`/to-grill-me plan`).
+- **Log Keputusan:** Merangkum keputusan yang sudah disepakati menjadi perubahan dokumen yang siap diterapkan, atau membuat ADR di `docs/adr/`.
 
 ---
 
-### 6. Audit Condition & Readiness Gate (`/to-clarify`)
+### 6. Audit Syarat & Gerbang Kesiapan (`/to-clarify`)
 
-When the specification is drafted and design tensions are resolved, conduct a formal quality gate audit:
+Setelah spesifikasi selesai disusun dan perdebatan desain terselesaikan, lakukan audit kualitas secara formal:
 
 ```text
 /to-clarify @docs/spec/order-tracking-spec.md
 ```
 
-The agent acts as a relentless **Pólya Clarification Analyst**:
-- **5-Axis Sanity Check:** Verifies Goal/Premise, User Flows & 5 UI States, Sad Paths, Seams, and Scope Boundaries.
-- **Epistemic Doubt:** Evaluates `> [!WARNING] [ASSUMPTION-XXX]` tags and hunts for unaddressed edge cases.
-- **Readiness Score (0–100):** Evaluates Completeness (40%), Clarity (30%), and Alignment (30%). If the score is $< 80$, the feature cannot proceed to planning.
+Agent akan berperan sebagai **Pólya Clarification Analyst** yang teliti tanpa kompromi:
+- **Cek Kewajaran 5 Sisi:** Memeriksa Tujuan/Premis, Alur Pengguna & 5 Kondisi UI, Skenario Gagal, Seam, dan Batas Cakupan.
+- **Keraguan yang Sehat (Epistemic Doubt):** Mengevaluasi tag `> [!WARNING] [ASSUMPTION-XXX]` dan memburu kasus pinggir yang belum ditangani.
+- **Skor Kesiapan (0–100):** Menilai Kelengkapan (40%), Kejelasan (30%), dan Keselarasan (30%). Jika skornya $< 80$, fitur belum boleh lanjut ke tahap perencanaan.
 
 ---
 
-### 7. Create Vertical Tracer Bullets (`/to-plan`)
+### 7. Buat Tracer Bullet Vertikal (`/to-plan`)
 
 ```text
 /to-plan @docs/spec/order-tracking-spec.md
 ```
 
-The agent creates `docs/plan/order-tracking-plan.md`, slicing implementation into vertical, demoable tracer bullets:
-- **Task 1 (Tracer Bullet 1)**: Domain Event + Redis Pub/Sub port + Mock Test.
-- **Task 2 (Tracer Bullet 2)**: WebSocket gateway + JWT authentication adapter.
-- **Task 3 (Tracer Bullet 3)**: Frontend hook + UI connection status indicator.
-- **Contingency Plan B**: Fallback polling if WebSocket fails.
+Agent akan membuat `docs/plan/order-tracking-plan.md` yang memecah implementasi menjadi potongan vertikal (*tracer bullet*) yang bisa didemokan:
+- **Task 1 (Tracer Bullet 1)**: Domain Event + port Redis Pub/Sub + test dengan mock.
+- **Task 2 (Tracer Bullet 2)**: Gateway WebSocket + adapter autentikasi JWT.
+- **Task 3 (Tracer Bullet 3)**: Hook frontend + indikator status koneksi di UI.
+- **Rencana Cadangan (Plan B)**: Beralih ke polling jika WebSocket gagal.
 
 ---
 
-### 8. 🛑 The Pause Rule Gate
+### 8. 🛑 Gerbang The Pause Rule
 
 > [!CAUTION]
-> **The Pause Rule**: The agent stops automatically after generating the plan. No code may be written until the developer reviews and confirms:
+> **The Pause Rule**: Agent otomatis berhenti setelah membuat rencana. Tidak ada kode yang boleh ditulis sampai developer meninjau dan mengonfirmasi:
 > 
-> *"Plan reviewed and approved. Proceed to implementation."*
+> *"Rencana sudah ditinjau dan disetujui. Lanjutkan ke implementasi."*
 
 ---
 
-### 9. Implement with Clean Code Discipline (`/to-code`)
+### 9. Implementasi dengan Disiplin Clean Code (`/to-code`)
 
 ```text
 /to-code @docs/plan/order-tracking-plan.md @docs/spec/order-tracking-spec.md
 ```
 
-The agent ingests the approved Implementation Plan and Technical Specification, executing Task 1 (Tracer Bullet 1) with strict engineering discipline:
-- **Uncle Bob's Clean Code**: Functions under 25 lines, single level of abstraction, intention-revealing names.
-- **Boy Scout Rule**: Leaves touched files cleaner than found.
-- **Two-Layer Testing Mandate**: Runs fast typechecks (`check:fast`) and vertical slice tests (`check:task`) before completing each task.
-- **Anti-Cheat Floor Guard**: Forbidden from using `@ts-ignore`, skipping tests, or leaving dummy `TODO` comments.
+Agent membaca Rencana Implementasi dan Spesifikasi Teknis yang sudah disetujui, lalu mengerjakan Task 1 (Tracer Bullet 1) dengan disiplin rekayasa yang ketat:
+- **Clean Code ala Uncle Bob**: Fungsi di bawah 25 baris, satu tingkat abstraksi per fungsi, dan nama yang jelas maksudnya.
+- **Boy Scout Rule**: File yang disentuh ditinggalkan dalam keadaan lebih bersih dari sebelumnya.
+- **Aturan Pengujian Dua Lapis**: Menjalankan pengecekan tipe yang cepat (`check:fast`) dan test per potongan vertikal (`check:task`) sebelum menyelesaikan setiap task.
+- **Penjaga Anti-Curang**: Dilarang memakai `@ts-ignore`, melewati test, atau meninggalkan komentar `TODO` kosong.
+- **Komentar Berbahasa Indonesia**: Setiap fungsi baru diberi docblock, dan setiap blok kode penting diberi komentar singkat dalam bahasa Indonesia supaya mudah dipahami.
 
 ---
 
-### 10. Review, Audit & Transfer Knowledge (`/to-review` & `/to-docs`)
+### 10. Review, Audit & Transfer Pengetahuan (`/to-review` & `/to-docs`)
 
 ```text
 # Adaptive Quality & Release Audit (Quick / Standard / Deep based on Risk Tier)
@@ -481,72 +482,72 @@ The agent ingests the approved Implementation Plan and Technical Specification, 
 # Focused Adversarial Security Audit
 /to-review security @docs/spec/order-tracking-spec.md
 ```
-Classifies the change by blast-radius **Risk Tier (`Low` / `Medium` / `High-Critical`)** and Review Depth (**`Quick` / `Standard` / `Deep`**), flagging sensitive paths with `[MANDATORY HUMAN AUDIT REQUIRED]`. Audits the code against the 5 SOLID principles, boundary invariants, and 14 defensive security vectors (OWASP, tenant isolation, LLM/MCP boundaries). Filters out linter noise by tagging every finding with **`[Important]`**, **`[Nit]`**, or **`[Pre-existing]`** plus its **`Bug Class`**, enforces 3-round review convergence, and issues a definitive `GO | NO-GO` verdict using a 3-state security taxonomy (`CONFIRMED`, `NEEDS_VALIDATION`, `REJECTED`) inside `docs/reviews/order-tracking-review.md`.
+Skill ini mengelompokkan perubahan berdasarkan seberapa luas dampaknya, yaitu **Tingkat Risiko (`Low` / `Medium` / `High-Critical`)** dan Kedalaman Review (**`Quick` / `Standard` / `Deep`**), serta menandai bagian sensitif dengan `[MANDATORY HUMAN AUDIT REQUIRED]`. Kode diaudit terhadap 5 prinsip SOLID, batas-batas invariant, dan 14 vektor keamanan defensif (OWASP, isolasi tenant, batas LLM/MCP). Temuan yang hanya "berisik" disaring dengan menandai setiap temuan sebagai **`[Important]`**, **`[Nit]`**, atau **`[Pre-existing]`** beserta **`Bug Class`**-nya. Review dibatasi maksimal 3 putaran, lalu diakhiri dengan keputusan tegas `GO | NO-GO` memakai 3 status keamanan (`CONFIRMED`, `NEEDS_VALIDATION`, `REJECTED`) di dalam `docs/reviews/order-tracking-review.md`.
 
 ```text
 /to-docs @docs/spec/order-tracking-spec.md @docs/plan/order-tracking-plan.md
 ```
-Generates clear documentation grounded in the verified contracts from the Specification and Plan, structured according to the **Diátaxis Framework** (Tutorial, How-To Guide, Reference, or Architectural Explanation) inside `docs/`.
+Menghasilkan dokumentasi yang jelas berdasarkan kontrak yang sudah terverifikasi di Spesifikasi dan Rencana, disusun mengikuti **Kerangka Diátaxis** (Tutorial, Panduan How-To, Referensi, atau Penjelasan Arsitektur) di dalam folder `docs/`.
 
 ---
 
-## ⚡ Fast-Track Bypass (`/to-quick-fix`)
+## ⚡ Jalur Cepat (`/to-quick-fix`)
 
-Need to fix a typo, update a configuration, or make a small 1–2 file mechanical change? You don't need a heavy 6-phase SDLC pipeline for minor edits:
+Mau memperbaiki salah ketik, mengubah konfigurasi, atau melakukan perubahan kecil di 1–2 file? Kamu tidak perlu melewati 6 fase SDLC yang berat untuk perubahan kecil:
 
 ```text
 /to-quick-fix Fix typo in redis timeout config and update connection retry count
 ```
 
-Adhering to Pólya's *Pedantry vs. Mastery* (1945), `/to-quick-fix` skips formal specs while upholding strict code quality, type checks, and atomic commits.
+Mengikuti prinsip Pólya *Pedantry vs. Mastery* (1945), yaitu menerapkan aturan dengan bijak, bukan kaku, `/to-quick-fix` melewati spesifikasi formal tetapi tetap menjaga kualitas kode, pengecekan tipe, dan commit yang atomik.
 
 ---
 
-## 🔌 Supported Platforms
+## 🔌 Platform yang Didukung
 
-Pólya SDLC Coder supports all major modern AI coding agent platforms through a **Single Source of Truth** architecture:
+Pólya SDLC Coder mendukung semua platform AI coding agent modern utama melalui arsitektur **satu sumber kebenaran** (*Single Source of Truth*):
 
-| Platform | Configuration Directory | Detection & Setup |
+| Platform | Folder Konfigurasi | Deteksi & Setup |
 | :--- | :--- | :--- |
-| **GitHub Copilot** | `.agents/` | Native support in VS Code, JetBrains, and Copilot CLI |
-| **Google Antigravity** | `.agents/` | Full skill and persona execution via Antigravity runner |
-| **Cursor** | `.cursor/` or `.agents/` | Seamless skill dispatching and rules integration |
-| **Claude Code** | `.claude/` | Direct plugin/skill integration |
-| **OpenCode / CommandCode** | `.agents/` | Automated discovery of sub-skills |
-| **ChatGPT Codex** | `.agents/` | Execution via project instruction files |
-| **Pi Dev & Oh My Pi (`omp`)** | `.agents/` | First-class agent skill compatibility |
+| **GitHub Copilot** | `.agents/` | Didukung langsung di VS Code, JetBrains, dan Copilot CLI |
+| **Google Antigravity** | `.agents/` | Skill dan persona berjalan penuh lewat Antigravity runner |
+| **Cursor** | `.cursor/` atau `.agents/` | Pemanggilan skill dan integrasi rules yang mulus |
+| **Claude Code** | `.claude/` | Integrasi plugin/skill secara langsung |
+| **OpenCode / CommandCode** | `.agents/` | Sub-skill ditemukan secara otomatis |
+| **ChatGPT Codex** | `.agents/` | Dijalankan lewat file instruksi proyek |
+| **Pi Dev & Oh My Pi (`omp`)** | `.agents/` | Kompatibel penuh dengan agent skill |
 
 ---
 
-## 🧠 Persistent Session Memory
+## 🧠 Memori Sesi yang Persisten
 
-Pólya SDLC maintains durable context across chat sessions via [`memory.instructions.md`](.agents/instructions/memory.instructions.md):
+Pólya SDLC menyimpan konteks yang awet di antara sesi chat melalui [`memory.instructions.md`](.agents/instructions/memory.instructions.md):
 
-- Run `/to-memory` to view, checkpoint, or compact current session learnings.
-- Documents active tracer bullets, verified architectural decisions (ADRs), and known pitfalls.
-- Prevents context loss between restarts or tool switches.
-
----
-
-## 🤝 Contributing
-
-Contributions are warmly welcomed! To contribute:
-
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feat/my-new-skill`.
-3. Adhere to George Pólya's heuristics and Uncle Bob's Clean Architecture conventions.
-4. Test and verify all skill definitions with lint checks.
-5. Open a Pull Request with a clear, structured description.
+- Jalankan `/to-memory` untuk melihat, menyimpan checkpoint, atau meringkas pelajaran dari sesi saat ini.
+- Mencatat tracer bullet yang sedang dikerjakan, keputusan arsitektur yang sudah terverifikasi (ADR), dan jebakan yang sudah diketahui.
+- Mencegah konteks hilang saat restart atau berganti tool.
 
 ---
 
-## 📜 License
+## 🤝 Berkontribusi
 
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
+Kontribusi sangat disambut! Untuk berkontribusi:
+
+1. Fork repository ini.
+2. Buat branch fitur: `git checkout -b feat/my-new-skill`.
+3. Ikuti heuristik George Pólya dan konvensi Clean Architecture ala Uncle Bob.
+4. Uji dan verifikasi semua definisi skill dengan lint check.
+5. Buka Pull Request dengan deskripsi yang jelas dan terstruktur.
+
+---
+
+## 📜 Lisensi
+
+Didistribusikan di bawah **Lisensi MIT**. Lihat [`LICENSE`](LICENSE) untuk detailnya.
 
 ---
 
 <p align="center">
-  <i>"It is foolish to answer a question that you do not understand. It is sad to work for an end that you do not desire."</i><br>
+  <i>"Bodoh rasanya menjawab pertanyaan yang tidak kita pahami. Menyedihkan rasanya bekerja untuk tujuan yang tidak kita inginkan."</i><br>
   — <b>George Pólya</b>, <i>How to Solve It (1945)</i>
 </p>

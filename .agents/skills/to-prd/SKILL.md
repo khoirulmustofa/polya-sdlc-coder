@@ -34,7 +34,7 @@ George Pólya's canonical 1945 problem triad (*Unknown, Data, Condition*) applie
 
 ## ⚙️ Core Directives & Guards
 
-1. **Language:** Follow the language policy defined in the project's `AGENTS.md` (conversational responses in the user-facing language specified by `AGENTS.md`; technical documentation, user stories, and PRD artifacts strictly in clear, professional English).
+1. **Language:** Follow the **Language Policy Matrix** in the project's `AGENTS.md` (conversational responses, user stories, acceptance criteria, and PRD artifacts in Bahasa Indonesia; traceability IDs and technical terms in English).
 2. **Context Check Protocol:**
    - Before drafting, check for an existing Discovery Draft at `docs/discovery/{slug}-discovery.md` or a comprehensive user brief.
    - If missing, offer to run `/to-explore` first, or proceed if the user commands an explicit override.

@@ -21,7 +21,7 @@ The following markdown content rules are enforced in the validators:
 
 Follow these guidelines for formatting and structuring your markdown content:
 
-- **English-Only Technical Artifacts**: All generated SDLC markdown artifacts (`PRD`, `Spec`, `Plan`, `Clarification`, `Review`, `ADR`, `ARCHITECTURE.md`, and `Diátaxis` docs) MUST be written in clear, precise English per `AGENTS.md`.
+- **Bahasa Indonesia Technical Artifacts**: All generated SDLC markdown artifacts (`PRD`, `Spec`, `Plan`, `Clarification`, `Review`, `ADR`, `ARCHITECTURE.md`, and `Diátaxis` docs) MUST be written in clear, precise Bahasa Indonesia per the Language Policy Matrix in `AGENTS.md`. Keep established technical terms, traceability IDs, review tags, and code identifiers in English.
 - **Zero Lazy Placeholders**: Never leave `TODO`, `TBD`, or `...` placeholders in finalized sections. If an architectural detail must be assumed during fast-track synthesis, tag it explicitly with `> [!WARNING] [ASSUMPTION-XXX]: ...`.
 - **Traceability Identifiers**: Preserve exact uppercase identifiers (`REQ-XXX`, `CON-XXX`, `AC-XXX`, `TASK-XXX`, `[ASSUMPTION-XXX]`) across documents so downstream skills can verify bidirectional traceability.
 
