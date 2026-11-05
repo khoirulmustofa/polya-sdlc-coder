@@ -15,7 +15,7 @@
 </p>
 
 > [!NOTE]
-> **Informasi Fork & Modifikasi**: Repositori ini merupakan hasil *fork* dari [GulajavaMinistudio/polya-sdlc-coder](https://github.com/GulajavaMinistudio/polya-sdlc-coder) yang dikelola oleh [@khoirulmustofa](https://github.com/khoirulmustofa/polya-sdlc-coder). Versi ini disesuaikan dengan instruksi respon LLM, dokumentasi SDLC, dan komentar kode dalam **Bahasa Indonesia**. (Terkait modul pada `D:\PHP\ppdb_laravel\resources\js\Pages\Admin\WhatsApp`).
+> **Informasi Fork & Modifikasi**: Repositori ini merupakan hasil *fork* resmi dari [GulajavaMinistudio/polya-sdlc-coder](https://github.com/GulajavaMinistudio/polya-sdlc-coder) yang dikelola oleh [@khoirulmustofa](https://github.com/khoirulmustofa/polya-sdlc-coder). Versi ini disesuaikan khusus dengan instruksi respon LLM, dokumentasi SDLC, dan komentar kode dalam **Bahasa Indonesia**.
 
 ---
 
